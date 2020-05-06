@@ -6,11 +6,11 @@ This repository holds all the submissions made for the Python Challenges Reposit
 
 _Welcome, this project aim is to provide you with micro and macro task while you learn new concepts in python. Is one thing to keep learning and is another thing to practice what you're learning. During my learning process, one of the question I do ask myself is "were and how can I practice this concept I just learnt now", this questions comes always when you're learning basics in programming, like VARIABLES, LOOPS, CONDITIONS, DATA TYPES etc. the tasks provided here will help you gain more understanding of concepts you learn, from beginners steps to advance._
 
-## [The Challenges](https://github.com/emetowinner/python-challenges)
+## [The Challenges](https://github.com/CodedLadiesInnovateTech/python-challenges)
 
 **Phase 1 (Basics)**
 
-- [Python Basic 1(target >>1 week)](https://github.com/emetowinner/python-challenges/tree/master/Phase-1/Python%20Basic%201)
+- [Python Basic 1(target >>1 week)](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-1/Python%20Basic%201)
 - More Coming
 
 **Phase 2 (Data Structures and Algorithms)**
@@ -44,7 +44,7 @@ $ git remote add origin https://github.com/{YOUR-GITHUB-USERNAME}/python-challen
 ```
 
 ```sh
-$ git remote add upstream https://github.com/emetowinner/python-challenges-solution.git
+$ git remote add upstream https://github.com/CodedLadiesInnovateTech/python-challenge-solutions.git
 ```
 
 Pull the code to your project directory and set it up by running the following command
