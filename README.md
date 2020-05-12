@@ -29,7 +29,8 @@ Locate fork button and click on it.
 
 Then go to your desktop and create a folder, name it {python-challenges-solution}.
 
-Open the folder {python-challenges-solution}, right click and select the option gitbash here (ensure you have git installed).
+Open the folder {python-challenges-solution}, right click and select the option gitbash here 
+(ensure you have git installed).
 
 To make the folder a git folder, run the following command
 
@@ -40,7 +41,7 @@ $ git init
 Set up your origin and upstream remotes by running the following commands
 
 ```sh
-$ git remote add origin https://github.com/{YOUR-GITHUB-USERNAME}/python-challenges-solution.git
+$ git remote add origin https://github.com/{GREENFONTS}/python-challenges-solution.git
 ```
 
 ```sh
