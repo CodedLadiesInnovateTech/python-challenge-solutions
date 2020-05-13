@@ -41,7 +41,7 @@ $ git init
 Set up your origin and upstream remotes by running the following commands
 
 ```sh
-$ git remote add origin https://github.com/{GREENFONTS}/python-challenges-solution.git
+$ git remote add origin https://github.com/{YOUR_USERNAME}/python-challenges-solution.git
 ```
 
 ```sh
