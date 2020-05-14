@@ -61,9 +61,10 @@ $ git checkout master
 
 - At the root directory, create a folder with your name
 - Inside the folder you just created, crate another folder and name it the task phase you're in. eg <Phase 1>
-- Inside the Phase folder, create another folder with the name of the category you're in. eg <Python Basic 1>
-- Then inside the category folder paste all your solution .py file for that particular category.
-- The structure should look like: [your_name]>>[the_phase]>>[category]>>solution_files
+- Inside the <Phase 1> folder, create another folder with the name of the category you're in. eg <Python Basic 1>
+- Inside the <Python Basic 1>, create a folder per day for your tasks, eg <Day 2> to save Day 2 tasks.
+- Then inside the folder for each day's task, paste all your solution .py files for that particular day.
+- The structure should look like: [your_name]>>[the_phase]>>[category]>>[each_day]>>solution_files
 - Then go back to your git terminal and run the following commands:
 ```sh
 $ git add -A
