@@ -1,0 +1,5 @@
+data = str(input('input a set of numbers'))
+data_list = data.split(',')
+data_tuple = tuple(data_list)
+print(data_list)
+print(data_tuple)
