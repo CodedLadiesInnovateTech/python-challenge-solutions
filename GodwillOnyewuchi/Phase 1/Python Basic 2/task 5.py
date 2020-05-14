@@ -1,6 +1,6 @@
-from math import pi, pow
+# 3 -> [1, 5, 8, 3] : True
+# -1 -> [1, 5, 8, 3] : False
 
-radius = 6
-volume = float(4/3 * pi * pow(radius, 3))
-
-print(f'Volume of a Sphere with radius {radius} is {volume}')
+list1 = [1, 5, 8, 3]
+print(3 in list1)
+print(-1 in list1)

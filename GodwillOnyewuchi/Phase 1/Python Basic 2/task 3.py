@@ -1,3 +1,10 @@
 
-hey = "don't"
-print(f'a string that you {hey} have to escape \nThis \nis a ....... multi-line \nheredoc string ----------> example')
+numbers = input("Enter a string of number: ")
+num_strings = list(numbers)
+
+if len(num_strings) > 2:
+    print(num_strings[0:2])
+else:
+    print(num_strings)
+
+

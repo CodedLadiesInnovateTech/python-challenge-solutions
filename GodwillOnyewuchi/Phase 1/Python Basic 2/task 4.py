@@ -1,10 +1,8 @@
 
-# dates: (2014, 7, 2), (2014, 7, 11)
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+Character = input("Enter a character: ")
 
-
-from datetime import date
-
-firstDate = date(2013, 7, 12)
-secondDate = date(2014, 7, 11)
-diff = secondDate - firstDate
-print(diff.days)
+if Character in vowels:
+    print(f'{Character} is a vowel')
+else:
+    print(f'{Character} is not a vowel')

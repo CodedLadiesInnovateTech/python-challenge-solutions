@@ -1,10 +1,5 @@
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
 
-text = input("Enter a string of text: ")
-checkIs = text[0:2]
-Isword = ['is', 'Is', 'IS']
-if checkIs in Isword:
-
-    print(text)
-else:
-    texts = f'Is {text}'
-    print(texts)
+output = color_list_1 - color_list_2
+print(output)

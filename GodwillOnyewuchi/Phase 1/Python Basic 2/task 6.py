@@ -1,10 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
 
-Number = int(input('Enter a number :  '))
-diff = Number - 17;
-if Number > 17:
-    DoubleAbs = abs(diff) ** 2
-    print(DoubleAbs)
-else:
-    print(diff)
+lists = np.random.normal(size=50)
 
+plt.hist(lists)
+plt.show()
 
+"""for a list of integers"""
+list2 = [1, 2, 5, 7, 8, 5, 4]
+plt.hist(list2)
+plt.show()
