@@ -1,0 +1,12 @@
+def find_number(num):
+    message = ""
+    if num % 2 == 0:
+        message += "number is even"
+    else:
+        message += "number is odd"
+    return message
+
+
+number = int(input("Enter a number: "))
+print (find_number(number))
+
