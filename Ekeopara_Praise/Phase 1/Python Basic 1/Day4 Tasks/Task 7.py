@@ -1,6 +1,6 @@
 '''7. Write a Python program to concatenate all elements in a list into a string and return it.'''
-def lst_element(lst):
 
+def lst_element(lst):
     ans = ""
     for ele in lst:
         ans += str(ele)
