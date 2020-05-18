@@ -1,2 +1,0 @@
-Nightrhymes = str('"Twinkle! Twinkle! little star, how I wonder what you are? \n \t Up above the world so high \n Like a diamond in the sky \n \t Twinkle! Twinkle! little star how I wonder what you are?"')
-print (Nightrhymes)
