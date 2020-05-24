@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 
-path = "C:/Users/P7957/Desktop/python-challenges-solution/neoOkpara/Phase-1/Day6"
+path = "C:/Users/NEO/Desktop/python-challenges-solution/neoOkpara/Phase-1/Day6"
 
 files_list = [f for f in listdir(path) if isfile(join(path, f))]
 
