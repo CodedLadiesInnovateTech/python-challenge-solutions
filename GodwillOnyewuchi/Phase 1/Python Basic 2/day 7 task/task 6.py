@@ -1,4 +1,4 @@
-import fcntl
+import ftplib
 import termios
 import struct
    
