@@ -1,16 +1,11 @@
 """
-Write a Python program to check whether a number is "happy" or not.
+Write a Python program to sum of all numerical values (positive integers) embedded in a sentence.
 """
-def is_Happy_num(num):
-    while num != 1:
+import sys,re
+def test(stri):
+  print("Input some text and numeric values (<ctrl-d> to exit):")
+  print("Sum of the numeric values: ",sum([sum(map(int,re.findall(r"[0-9]{1,5}",stri)))]))
 
-        num = str(num)
-        sum_square = 0
-
-        for i in num:
-            sum_square += int(i)**2
-
-        num = sum_square
-    return True
-print(is_Happy_num(7))
-print(is_Happy_num(932))
+print(test("sd1fdsfs23 dssd56"))
+print(test("15apple2banana"))
+print(test("flowers5fruit5"))

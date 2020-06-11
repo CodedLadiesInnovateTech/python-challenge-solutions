@@ -1,19 +1,18 @@
 """
-Write a Python program to find the number of combinations that satisfy p + q + r + s = n where n is
-a given number <= 4000 and p, q, r, s in the range of 0 to 1000.
+Write a Python program to compute the sum of first n given prime numbers.
 """
-from collections import Counter
-print("Input a positive integer: (ctrl_d to exit)")
-pair_dict = Counter()
-for i in range(2001):
-    pair_dict[i] = min(i, 2000 - i) + 1
-
+MAX = 105000
+print("Input a number (n≤10000) to compute the sum:(0 to exit)") 
+is_prime = [True for _ in range(MAX)]
+is_prime[0] = is_prime[1] = False
+for i in range(2, int(MAX ** (1 / 2)) + 1):
+  if is_prime[i]:
+    for j in range(i ** 2, MAX, i):
+      is_prime[j] = False 
+primes = [i for i in range(MAX) if is_prime[i]] 
 while True:
-    try:
-        n = int(input())
-        ans = 0
-        for i in range(n + 1):
-            ans = pair_dict[i] + pair_dict[n - i]
-        print("Number of combinations of a, b, c, d: ", ans)
-    except EOFError:
-        break
+  n = int(input())
+  if not n:
+    break
+  print("Sum of first",n,"prime numbers:")
+  print(sum(primes[:n]))
