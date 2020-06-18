@@ -7,22 +7,13 @@ Oddish
 Evenish
 Oddish'''
 
-'''def check_status(num):'''
-num = 111
-num = str(num)
-for i in num:
-    n = int(i)
-    n += n
-print(n)
-print(n%2==0)
-'''   if n%2==0:
-        response = "Evenish"
-    else:
-        response = "Oddish"
-    return response
+def oddish_evenish_num(n):
+	return 'Oddish' if sum(map(int, str(n))) % 2 else 'Evenish'
 
-print(check_status(123))
-print(check_status(546))
-print(check_status(545))
-print(check_status(300))
-print(check_status(100))'''
+print(oddish_evenish_num(120))
+print(oddish_evenish_num(321))
+print(oddish_evenish_num(43))
+print(oddish_evenish_num(4433))
+print(oddish_evenish_num(373))
+
+#Referennce: w3resource
