@@ -2,4 +2,4 @@
 
 String = 'hello'
 
-print(String.rjust(9, '0'))
+print(String.ljust(9, '0'))
