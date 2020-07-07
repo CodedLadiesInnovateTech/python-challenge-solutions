@@ -11,11 +11,13 @@ _Welcome, this project aim is to provide you with micro and macro task while you
 **Phase 1 (Basics)**
 
 - [Python Basic 1(target >>1 week)](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-1/Python%20Basic%201)
-- More Coming
+- [Python Basic 1(target >>1 week)](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-1/Python%20Basic%202)
+
 
 **Phase 2 (Data Structures and Algorithms)**
 
-- Coming soon
+- [Python String](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/String)
+- [Python Json](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/Json)
 
 **Phase 3 (Objects)**
 

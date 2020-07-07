@@ -1,0 +1,5 @@
+sdata=input('Enter Data: ')
+mylist=sdata.split(",")
+mytuple=tuple(mylist)
+print ('List: ',mylist)
+print('Tuple: ',mytuple)
