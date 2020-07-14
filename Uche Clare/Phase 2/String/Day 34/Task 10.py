@@ -1,8 +1,5 @@
-"""
-Write a Python program to capitalize first and last letters of each word of a given string.
-"""
+#Write a Python program to capitalize first and last letters of each word of a given string.
 str1 = "CodedLadies Innovate is a python oriented group."
-print(str1.title())
 str1 = result = str1.title()
 result = ""
 for word in str1.split():
