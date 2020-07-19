@@ -10,7 +10,7 @@ text1 = textwrap.dedent(text).strip()
 print()
 
 print(textwrap.fill(text1,
-                    initial_indent='',
+                    initial_indent=' '*2,
                     subsequent_indent=' ' * 4,
                     width=80,
                     ))

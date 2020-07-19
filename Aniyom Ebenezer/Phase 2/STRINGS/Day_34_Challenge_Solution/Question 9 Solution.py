@@ -14,4 +14,4 @@ def get_max_occuring_char(str1):
             max = ctr[ord(i)]
             ch = i
         return ch
-print(get_max_occuring_char("abcdefghijkl"))
+print(get_max_occuring_char("abcdefghijklabi"))

@@ -8,6 +8,6 @@ def first_repeated_char_smallest_distance(str1):
             return ch
         else:
             temp[ch] =0
-        return "None"
-    print(first_repeated_char_smallest_distance("abcabc"))
-    print(first_repeated_char_smallest_distance("abbcabc"))
+    return "None"
+print(first_repeated_char_smallest_distance("abcabc"))
+print(first_repeated_char_smallest_distance("abbcaabc"))

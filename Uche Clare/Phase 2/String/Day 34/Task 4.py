@@ -1,0 +1,12 @@
+#Write a Python program to find the first repeated character of a given string where the index of first occurrence is smallest.
+def first_repeated_char_smallest(str1):
+    temp = {}
+    for ch in str1:
+        if ch in temp:
+            return ch
+        else:
+            temp[ch] =0
+            
+    return "None"
+print(first_repeated_char_smallest("abcabcc"))
+print(first_repeated_char_smallest("xyyyzzzz"))
