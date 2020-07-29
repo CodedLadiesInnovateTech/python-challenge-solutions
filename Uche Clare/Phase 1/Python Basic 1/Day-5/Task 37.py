@@ -1,1 +1,0 @@
-print(" My name is Clare Uche.\n I am 23 years old.\n My home address is Onyeama Close, New Haven, Enugu State.")
