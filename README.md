@@ -11,10 +11,12 @@ _Welcome, this project aim is to provide you with micro and macro task while you
 **Phase 1 (Basics)**
 
 - [Python Basic 1(target >>1 week)](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-1/Python%20Basic%201)
-- [Python Basic 1(target >>1 week)](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-1/Python%20Basic%202)
-
+- More Coming
 
 **Phase 2 (Data Structures and Algorithms)**
+
+
+
 
 - [Python String](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/String)
 - [Python Json](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/Json)
@@ -23,6 +25,7 @@ _Welcome, this project aim is to provide you with micro and macro task while you
 - [Python Tuple](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/Tuple)
 - [Python Set](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/Set)
 - [Python Data Structure](https://github.com/CodedLadiesInnovateTech/python-challenges/tree/master/Phase-2/Data%20Structure)
+
 
 
 **Phase 3 (Objects)**
@@ -37,8 +40,7 @@ Locate fork button and click on it.
 
 Then go to your desktop and create a folder, name it {python-challenges-solution}.
 
-Open the folder {python-challenges-solution}, right click and select the option gitbash here 
-(ensure you have git installed).
+Open the folder {python-challenges-solution}, right click and select the option gitbash here (ensure you have git installed).
 
 To make the folder a git folder, run the following command
 
@@ -49,7 +51,7 @@ $ git init
 Set up your origin and upstream remotes by running the following commands
 
 ```sh
-$ git remote add origin https://github.com/{YOUR_USERNAME}/python-challenge-solutions.git
+$ git remote add origin https://github.com/{YOUR-GITHUB-USERNAME}/python-challenges-solution.git
 ```
 
 ```sh
@@ -68,12 +70,11 @@ $ git checkout master
 
 ## Task Submission
 
-- At the root directory, create a folder with your name
+git - At the root directory, create a folder with your name
 - Inside the folder you just created, crate another folder and name it the task phase you're in. eg <Phase 1>
-- Inside the <Phase 1> folder, create another folder with the name of the category you're in. eg <Python Basic 1>
-- Inside the <Python Basic 1>, create a folder per day for your tasks, eg <Day 2> to save Day 2 tasks.
-- Then inside the folder for each day's task, paste all your solution .py files for that particular day.
-- The structure should look like: [your_name]>>[the_phase]>>[category]>>[each_day]>>solution_files
+- Inside the Phase folder, create another folder with the name of the category you're in. eg <Python Basic 1>
+- Then inside the category folder paste all your solution .py file for that particular category.
+- The structure should look like: [your_name]>>[the_phase]>>[category]>>solution_files
 - Then go back to your git terminal and run the following commands:
 ```sh
 $ git add -A
